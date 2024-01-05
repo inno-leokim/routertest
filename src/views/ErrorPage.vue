@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <h1>Error Page</h1>
+        <h1>Error Page - 404 Not Found</h1>
     </div>
 </template>
 <script>

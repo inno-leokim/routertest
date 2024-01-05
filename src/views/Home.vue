@@ -1,13 +1,15 @@
-<template lang="">
+<template>
     <div>
-        <h4>Home Page</h4>
+        <h3>Home Page</h3>
     </div>
 </template>
+
 <script>
-export default {
-    
-}
+    export default {
+        
+    }
 </script>
-<style lang="">
-    
+
+<style scoped>
+
 </style>
