@@ -21,6 +21,11 @@ const router = createRouter({
             path: '/:catchAll(.*)',
             name: 'Error Page',
             component: ErrorPage
+        },
+        {
+            path: '/user/:username',
+            name: 'User',
+            component: User
         }
     ]
 });
