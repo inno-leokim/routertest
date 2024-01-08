@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router"
 import Home from '@/views/Home.vue';
 import About from '@/views/About.vue';
 import ErrorPage from '@/views/ErrorPage.vue';
+import User from '@/views/User.vue';
 
 const router = createRouter({
     history: createWebHistory(),
