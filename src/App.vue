@@ -3,7 +3,7 @@
     <h1>Hello</h1>
     <div><router-link to="/">Home</router-link></div>    
     <div><router-link to="/about">About</router-link></div>  
-    <div><router-link to="login">Login</router-link></div>  
+    <div><router-link to="/login">Login</router-link></div>  
     <div><router-link :to="{name: 'User', params: {username: 'brand13'}, query: {id: 13}}">User-Brand13</router-link></div>
     <div><router-link :to="{name: 'Profile', params: {username: 'brand14'}, query: {id: 14}}">User-Profile</router-link></div>
   </div>
