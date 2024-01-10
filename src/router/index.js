@@ -52,7 +52,7 @@ const router = createRouter({
         },
         {
             path: '/:catchAll(.*)',
-            name: 'Error Page',
+            name: 'ErrorPage',
             component: ErrorPage
         },
         {
