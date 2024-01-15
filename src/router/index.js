@@ -104,6 +104,7 @@ const router = createRouter({
 //     console.log('every single routing is pending');
     
 //     next(); //페이지 전환
+//     next({name: 'User', params: {username: 'brand21'}}); //전역가드에서 구체적인 redirect를 지정하면 무한(infinite) redirect에 걸린다. 위험!
 // });
 
 // router.beforeEach((to, from, next) => {

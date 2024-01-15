@@ -24,7 +24,7 @@
             if(to.matched.some(record => {
                 return record.meta.authRequired;
             })){
-                alert("login please - beforeRo uteEnter");
+                alert("login please - beforeRouteEnter");
             }else{
                 alert("login success - beforeRouteEnter");
                 console.log("routing success : '" + to.path + "'");
