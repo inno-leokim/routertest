@@ -109,7 +109,7 @@ const router = createRouter({
 
 // router.beforeEach((to, from, next) => {
 //     if (to.matched.some((routeInfo) => {
-//         console.log(routeInfo);
+//         console.log(routeInfo);             //전역 네비 가드를 설정했지만 해당 메타데이터가 있는 컴포넌트에서만 적용된다.
 //         return routeInfo.meta.authRequired;
 //     })){
 //         alert('Login Please!');
