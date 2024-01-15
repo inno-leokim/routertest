@@ -37,7 +37,7 @@
                 // }).catch(err => {
                 //     this.loading = false;
                 //     // console.log(err);
-                //     this.error == err.toString();
+                //     this.error = err.toString();
                 // })
             }
         },
