@@ -84,6 +84,7 @@ const router = createRouter({
             name: 'User',
             props: {newsletterPopup: false},
             component: User,
+            meta: {authRequired: true}, //children까지 영향을 미친다.
             children: [
                 {
                     path: 'profile',
