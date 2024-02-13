@@ -17,10 +17,10 @@
             }
         },
         methods: {
-            goBack(num){
-                window.history.length > num
-                ? this.$route.go(-1)
-                : this.$route.push('/')
+            goBack(){
+                window.history.length > 1
+                ? this.$router.go(-1)
+                : this.$router.push('/')
                 // 프로그래밍 방식으로 페이지 이동. 
                 // <router-link>가 선언방식(정적방식)이라면 $route.push는 동적으로 페이지를 이동
                     

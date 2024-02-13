@@ -12,7 +12,7 @@
         </div>
 
         <div v-if="post" class="content">
-            <h3></h3>
+            <h3>{{ post }}</h3>
         </div>
     </div>
 </template>
