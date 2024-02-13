@@ -37,7 +37,7 @@ const router = createRouter({
             //     query: {id: 15}}
             
             
-            // redirect: to => {
+            // redirect: to => { // path에 따라 분기하여 동적 프로그래밍 
             //     // console.log(to);
             //     const { hash, params, query, path } = to;
             //     console.log(path);
@@ -83,6 +83,7 @@ const router = createRouter({
             path: '/user/:username',
             name: 'User',
             props: {newsletterPopup: false},
+            // props: (route) => ({query: route.query.q}),
             component: User,
             meta: {authRequired: true}, //children까지 영향을 미친다.
             children: [
